@@ -1,0 +1,31 @@
+<html>
+<head>
+<script type="text/javascript">
+function show()
+{ 
+ 
+ var y=document.getElementById('t1').value;
+ var z=/^[0-9]+$/;
+ if(!(y.match(z))
+ {
+   var a=prompt("Enter only a number","");
+   if(a)
+   document.getElementById('t1').value=a;
+   else
+   alert("Enter number only");
+ }
+  else if(y.match(z))
+  {
+ x.document.write("Hello");
+  var x=window.open("","","width=100,height=250");
+  }
+  else
+  alert("Enter only number");
+}
+
+</script>
+</head><body>
+<input type=text id=t1>
+<input type=button value=submit onclick="show()">
+</body>
+</html>

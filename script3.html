@@ -1,0 +1,37 @@
+<html>
+<head>
+<script type="text/javascript">
+function add()
+{
+ var x=parseInt(document.getElementById('t1').value);
+ var y=parseInt(document.getElementById('t2').value);
+ document.write("Additiopn is"+(x+y));
+ }
+ function subtraction()
+{
+ var x=parseInt(document.getElementById('t1').value);
+ var y=parseInt(document.getElementById('t2').value);
+ document.write("Subtraction  is"+(x-y));
+ }
+ function multiply()
+{
+ var x=parseInt(document.getElementById('t1').value);
+ var y=parseInt(document.getElementById('t2').value);
+ document.write("Multiplication  is"+(x*y));
+ }
+ function division()
+{
+ var x=parseInt(document.getElementById('t1').value);
+ var y=parseInt(document.getElementById('t2').value);
+ document.write("Division  is"+(x/y));
+ }
+ </script>
+ <body>
+ Enter first number<input type=text id=t1><br>
+ Enter second number<input type=text id=t2><br>
+ <input type=button value=add onclick="add()">
+ <input type=button value=subtract onclick="subtraction()">
+ <input type=button value=multiply onclick="multiply()">
+ <input type=button value=division onclick="division()">
+ </body>
+ </html>

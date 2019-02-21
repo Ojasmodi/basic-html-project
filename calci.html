@@ -1,0 +1,36 @@
+<html>
+<head>
+<script type="text/javascript">
+function perform(y)
+{
+ //var x=y;
+ document.getElementById('t1').innerHTML=y;
+}
+ </script>
+ </head>
+<body>
+<table border="1px" align="center">
+<tr>
+<td colspan=3 id="t1"><input type=text ></td>
+<td><input type=button value="  C "></td></tr>
+<tr>
+<td><input type=button id="a1" value="0" onclick="perform("0")"></td>
+<td><input type=button id="a1" value="1" onclick="perform("1")"></td>
+<td><input type=button id="a1" value="2" onclick="perform("2")"></td>
+<td><input type=button id="a1" value="+" onclick="perform("+")"></td></tr>
+<tr>
+<td width="25%"><input type=button id="a1" onclick="perform()" value="3"></td>
+<td width="25%"><input type=button id="a1" onclick="perform()" value="4"></td>
+<td width="25%"><input type=button id="a1" onclick="perform()" value="5"></td>
+<td width="25%"><input type=button id="a1" onclick="perform()" value="-"></td></tr>
+<tr>
+<td width="25%"><input type=button id="a1" onclick="perform()"  value="6"></td>
+<td width="25%"><input type=button id="a1" onclick="perform()" value="7"></td>
+<td width="25%"><input type=button id="a1" onclick="perform()" value="8"></td>
+<td width="25%"><input type=button id="a1" onclick="perform()" value="*"></td></tr>
+<tr>
+<td colspan=3><input type=button value="                         =                    " onclick="perform()"></td>
+<td><input type=button value="/" onclick="perform()"></td></tr>
+</table>
+</body>
+</html>
